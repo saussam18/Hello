@@ -1,0 +1,31 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set(/Users/samsausville/Desktop/Mod Folder/Hello/project/Hello.scala)
+[debug] 	added: Set()
+[debug] 	modified: Set()
+[debug] Invalidated products: Set()
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Hello)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set()
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All sources are invalidated.
+[debug] Recompiling all 0 sources: invalidated sources (1) exceeded 50.0% of all sources
+[debug] Invalidating (transitively) by inheritance from Hello...
+[debug] Initial set of included nodes: Set(Hello)
+[debug] Invalidated by transitive inheritance dependency: Set(Hello)
+[debug] Change NamesChange(Hello,ModifiedNames(changes = UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]), UsedName(delayedInit,[Default]), UsedName(hashCode,[Default]), UsedName(executionStart,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(args,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(getClass,[Default]), UsedName(Hello,[Default]), UsedName(!=,[Default]), UsedName($init$,[Default]))) invalidates 1 classes due to The Hello has the following regular definitions changed:
+[debug] 	UsedName(wait,[Default]), UsedName(equals,[Default]), UsedName(ne,[Default]), UsedName(synchronized,[Default]), UsedName(clone,[Default]), UsedName(main,[Default]), UsedName(delayedInit,[Default]), UsedName(hashCode,[Default]), UsedName(executionStart,[Default]), UsedName($isInstanceOf,[Default]), UsedName(isInstanceOf,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(finalize,[Default]), UsedName(args,[Default]), UsedName(notify,[Default]), UsedName(notifyAll,[Default]), UsedName($asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(getClass,[Default]), UsedName(Hello,[Default]), UsedName(!=,[Default]), UsedName($init$,[Default]).
+[debug] 	> by transitive inheritance: Set(Hello)
+[debug] 	> 
+[debug] 	> 
+[debug]         
+[debug] New invalidations:
+[debug] 	Set()
+[debug] Initial set of included nodes: Set()
+[debug] Previously invalidated, but (transitively) depend on new invalidations:
+[debug] 	Set()
+[debug] All newly invalidated classes after taking into account (previously) recompiled classes:Set()
